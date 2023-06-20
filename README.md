@@ -1,6 +1,14 @@
-# Create T3 App
+# Create T3 App + Supabase
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+
+## Quick Start
+
+1. Setup Google OAuth Provider on GCP.
+2. Save `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` in `.env`
+3. Create new project on [Supabse](https://supabase.com/).
+4. Get database url and password from your project, and save `DATABASE_URL` in `.env`
+5. Start your development server: `yarn dev`
 
 ## What's next? How do I make an app with this?
 
